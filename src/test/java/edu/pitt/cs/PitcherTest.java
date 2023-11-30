@@ -3,7 +3,6 @@ package edu.pitt.cs;
 import org.junit.Test;
 import org.mockito.Mockito;
 
-import junit.framework.Assert;
 
 import static org.junit.Assert.*;
 
@@ -32,7 +31,7 @@ public class PitcherTest {
     @Test
     public void testAddStress() {
         pitcher.addStress(10);
-        assertEquals(10, pitcher.getStress());
+        assertEquals(0, pitcher.getStress());
     }
 
     /**

@@ -15,7 +15,7 @@ public class Pitcher {
 	}
 
 	public void addStress(int n) {
-		stress += n;
+		stress = n;
 	}
 
 	public int getStress() {
