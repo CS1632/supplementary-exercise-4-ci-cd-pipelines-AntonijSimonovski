@@ -2,7 +2,6 @@ package edu.pitt.cs;
 
 import org.junit.Test;
 import org.mockito.Mockito;
-import org.mockito.MockitoAnnotations.Mock;
 
 import junit.framework.Assert;
 
